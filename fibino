@@ -1,0 +1,10 @@
+def print_fibonacci(n):
+    # Initialize the first two terms
+    a, b = 0, 1
+    
+    # Generate and print the sequence
+    for _ in range(n):
+        print(a, end=" ")
+        a, b = b, a + b
+
+# Example usage: Print the first 10 Fibonacci numbers
