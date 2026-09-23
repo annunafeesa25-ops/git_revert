@@ -12,4 +12,3 @@ terms = 10
 print(f"Fibonacci sequence ({terms} terms):")
 print_fibonacci(terms)
 print("annu is good girl")
-print("chinnu is good girl")
